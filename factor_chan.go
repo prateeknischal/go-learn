@@ -133,7 +133,7 @@ func main() {
 /*
 Generate the file nums.txt
 $ python -c "import random; print '\n'.join(str(random.randint(1, 10**7)) for _ in range(1000000))" > nums.txt
-$ go run threadripper.go
+$ time go run factor_chan.go
 performance:
 Go version : go version go1.8.3 darwin/amd64
 Specs : Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz, 2x8G mem
